@@ -1,0 +1,163 @@
+[
+ {
+  "department": "Urology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:27:28.392759",
+  "name": "Urology"
+ },
+ {
+  "department": "Serology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:27:43.544351",
+  "name": "Serology"
+ },
+ {
+  "department": "Rheumatology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:27:55.200110",
+  "name": "Rheumatology"
+ },
+ {
+  "department": "Physiotherapy",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:28:11.174770",
+  "name": "Physiotherapy"
+ },
+ {
+  "department": "Pathology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:28:21.956879",
+  "name": "Pathology"
+ },
+ {
+  "department": "Orthopaedics",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:28:39.476777",
+  "name": "Orthopaedics"
+ },
+ {
+  "department": "Oncology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:28:50.066038",
+  "name": "Oncology"
+ },
+ {
+  "department": "Neurology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:29:00.557653",
+  "name": "Neurology"
+ },
+ {
+  "department": "Nephrology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:29:09.202624",
+  "name": "Nephrology"
+ },
+ {
+  "department": "Microbiology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:29:17.206472",
+  "name": "Microbiology"
+ },
+ {
+  "department": "Maternity",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:29:27.450546",
+  "name": "Maternity"
+ },
+ {
+  "department": "Haematology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:29:36.912338",
+  "name": "Haematology"
+ },
+ {
+  "department": "Gynaecology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:29:45.258958",
+  "name": "Gynaecology"
+ },
+ {
+  "department": "General Surgery",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:29:53.490942",
+  "name": "General Surgery"
+ },
+ {
+  "department": "Gastroenterology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:30:01.730041",
+  "name": "Gastroenterology"
+ },
+ {
+  "department": "ENT",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:30:09.922534",
+  "name": "ENT"
+ },
+ {
+  "department": "Diagnostic Imaging",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:30:18.768177",
+  "name": "Diagnostic Imaging"
+ },
+ {
+  "department": "Dermatology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:30:27.105201",
+  "name": "Dermatology"
+ },
+ {
+  "department": "Diabetology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:30:35.473165",
+  "name": "Diabetology"
+ },
+ {
+  "department": "Cardiology",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:30:43.536579",
+  "name": "Cardiology"
+ },
+ {
+  "department": "Biochemistry",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:30:52.793110",
+  "name": "Biochemistry"
+ },
+ {
+  "department": "Anaesthetics",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:31:01.273839",
+  "name": "Anaesthetics"
+ },
+ {
+  "department": "Accident And Emergency Care",
+  "docstatus": 0,
+  "doctype": "Medical Department",
+  "modified": "2026-01-04 22:31:10.388452",
+  "name": "Accident And Emergency Care"
+ }
+]

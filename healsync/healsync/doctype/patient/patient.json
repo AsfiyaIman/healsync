@@ -1,0 +1,401 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-01-04 21:30:09.914633",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "patient_name",
+  "sex",
+  "blood_group",
+  "dob",
+  "age_html",
+  "image",
+  "column_break_earz",
+  "status",
+  "uid",
+  "mobile",
+  "phone",
+  "email",
+  "more_information_section",
+  "patient_details",
+  "dashboard_tab",
+  "address_and_contact_tab",
+  "address_and_contact_section",
+  "address_html",
+  "column_break_swss",
+  "contact_html",
+  "patient_relation_section",
+  "patient_relation",
+  "medical_history_tab",
+  "personal_and_social_history_section",
+  "occupation",
+  "column_break_pnrf",
+  "marital_status",
+  "allergies_medical_and_surgical_history_section",
+  "allergies",
+  "medication",
+  "column_break_inmw",
+  "medical_history",
+  "surgical_history",
+  "risk_factors_section",
+  "tobacco_past_use",
+  "tobacco_current_use",
+  "alcohol_past_use",
+  "alcohol_current_use",
+  "column_break_vmlo",
+  "surrounding_factors",
+  "other_risk_factors"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "HLC-PAT-.YYYY.-",
+   "print_hide": 1,
+   "report_hide": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name (optional)"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "bold": 1,
+   "fieldname": "patient_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Full Name",
+   "no_copy": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_earz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nDisabled"
+  },
+  {
+   "fieldname": "medical_history_tab",
+   "fieldtype": "Tab Break",
+   "label": "Medical History"
+  },
+  {
+   "fieldname": "personal_and_social_history_section",
+   "fieldtype": "Section Break",
+   "label": "Personal and Social History"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "ignore_xss_filter": 1,
+   "label": "Occupation",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "column_break_pnrf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Marital Status",
+   "no_copy": 1,
+   "options": "\nSingle\nMarried\nDivorced\nWidow"
+  },
+  {
+   "fieldname": "allergies_medical_and_surgical_history_section",
+   "fieldtype": "Section Break",
+   "label": "Allergies, Medical and Surgical History"
+  },
+  {
+   "fieldname": "allergies",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Allergies",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "medication",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Medication",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "column_break_inmw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "medical_history",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Medical History",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "surgical_history",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Surgical History",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "risk_factors_section",
+   "fieldtype": "Section Break",
+   "label": "Risk Factors"
+  },
+  {
+   "fieldname": "tobacco_past_use",
+   "fieldtype": "Data",
+   "ignore_xss_filter": 1,
+   "label": "Tobacco Consumption (Past)",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "column_break_vmlo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tobacco_current_use",
+   "fieldtype": "Data",
+   "label": "Tobacco Consumption (Present)"
+  },
+  {
+   "fieldname": "alcohol_past_use",
+   "fieldtype": "Data",
+   "label": "Alcohol Consumption (Past)"
+  },
+  {
+   "fieldname": "alcohol_current_use",
+   "fieldtype": "Data",
+   "label": "Alcohol Consumption (Present)"
+  },
+  {
+   "fieldname": "surrounding_factors",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Occupational Hazards and Environmental Factors",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "other_risk_factors",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Other Risk Factors",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "address_and_contact_tab",
+   "fieldtype": "Tab Break",
+   "label": "Address & Contact"
+  },
+  {
+   "fieldname": "address_and_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact"
+  },
+  {
+   "fieldname": "column_break_swss",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "patient_relation_section",
+   "fieldtype": "Section Break",
+   "label": "Patient Relation"
+  },
+  {
+   "fieldname": "patient_relation",
+   "fieldtype": "Table",
+   "label": "Patient Relation",
+   "options": "Patient Relation"
+  },
+  {
+   "fieldname": "dashboard_tab",
+   "fieldtype": "Tab Break",
+   "label": "Dashboard",
+   "show_dashboard": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "uid",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Identification Number (UID)",
+   "unique": 1
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Link",
+   "in_preview": 1,
+   "label": "Gender",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "blood_group",
+   "fieldtype": "Select",
+   "in_preview": 1,
+   "label": "Blood Group",
+   "no_copy": 1,
+   "options": "\nA Positive\nA Negative\nAB Positive\nAB Negative\nB Positive\nB Negative\nO Positive\nO Negative"
+  },
+  {
+   "bold": 1,
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_preview": 1,
+   "label": "Date of birth",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "age_html",
+   "fieldtype": "HTML",
+   "label": "Age",
+   "no_copy": 1,
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "in_preview": 1,
+   "label": "Image",
+   "no_copy": 1,
+   "print_hide": 1,
+   "width": "50%"
+  },
+  {
+   "bold": 1,
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Mobile",
+   "no_copy": 1,
+   "options": "Phone"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "label": "Phone",
+   "no_copy": 1,
+   "options": "Phone"
+  },
+  {
+   "bold": 1,
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Email",
+   "no_copy": 1,
+   "options": "Email"
+  },
+  {
+   "fieldname": "more_information_section",
+   "fieldtype": "Section Break",
+   "label": "More Information"
+  },
+  {
+   "description": "Additional information regarding the patient",
+   "fieldname": "patient_details",
+   "fieldtype": "Text",
+   "ignore_xss_filter": 1,
+   "label": "Patient Details",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "icon": "fa fa-user",
+ "image_field": "image",
+ "links": [],
+ "max_attachments": 50,
+ "modified": "2026-01-04 23:04:18.539228",
+ "modified_by": "Administrator",
+ "module": "HealSync",
+ "name": "Patient",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Healthcare Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "patient_name,mobile,email,phone,uid",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "patient_name",
+ "track_changes": 1,
+ "track_seen": 1
+}
