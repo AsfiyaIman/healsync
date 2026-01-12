@@ -5,7 +5,7 @@
    "label": "Patient Appointments"
   }
  ],
- "content": "[{\"id\":\"zxmCt-_FPO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Patients\",\"col\":3}},{\"id\":\"wPst-zNPsC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Patients Admitted\",\"col\":3}},{\"id\":\"lef-qAiQN8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Appointments\",\"col\":3}},{\"id\":\"j5_rZO60YZ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Appointments To Bill\",\"col\":3}},{\"id\":\"c4YACeWw-T\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Patient Appointments\",\"col\":12}},{\"id\":\"0qnjzLp2ei\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AzYbemsDQW\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Your Shortcuts</span>\",\"col\":12}},{\"id\":\"8KNqdy5x0C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Patient Appointment\",\"col\":4}},{\"id\":\"8Lejlp66m5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Patient\",\"col\":4}},{\"id\":\"MqBeesl6kd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Doctor\",\"col\":4}},{\"id\":\"YLokDRJk8a\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"KVQcfCF0kg\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"q907kR8PeQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"Wa3QggqY8S\",\"type\":\"card\",\"data\":{\"card_name\":\"Consultation\",\"col\":4}}]",
+ "content": "[{\"id\":\"zxmCt-_FPO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Patients\",\"col\":3}},{\"id\":\"wPst-zNPsC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Patients Admitted\",\"col\":3}},{\"id\":\"lef-qAiQN8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Appointments\",\"col\":3}},{\"id\":\"j5_rZO60YZ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Appointments To Bill\",\"col\":3}},{\"id\":\"c4YACeWw-T\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Patient Appointments\",\"col\":12}},{\"id\":\"0qnjzLp2ei\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AzYbemsDQW\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Your Shortcuts</span>\",\"col\":12}},{\"id\":\"8KNqdy5x0C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Patient Appointment\",\"col\":4}},{\"id\":\"8Lejlp66m5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Patient\",\"col\":4}},{\"id\":\"MqBeesl6kd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Doctor\",\"col\":4}},{\"id\":\"TdzjgEFjeN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Appointment Type\",\"col\":4}},{\"id\":\"6WFR8tNWAL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Designation\",\"col\":4}},{\"id\":\"mbTpHEDE9p\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mode Of Payment\",\"col\":4}},{\"id\":\"YLokDRJk8a\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"KVQcfCF0kg\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"q907kR8PeQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"Wa3QggqY8S\",\"type\":\"card\",\"data\":{\"card_name\":\"Consultation\",\"col\":4}}]",
  "creation": "2026-01-04 23:06:18.489709",
  "custom_blocks": [],
  "docstatus": 0,
@@ -87,7 +87,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-01-13 00:23:09.096829",
+ "modified": "2026-01-13 00:27:30.124514",
  "modified_by": "Administrator",
  "module": "HealSync",
  "name": "Healthcare",
@@ -119,6 +119,14 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "Appointment Type",
+   "link_to": "Appointment Type",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "Patient Appointment",
    "link_to": "Patient Appointment",
    "stats_filter": "[]",
@@ -127,8 +135,24 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "Designation",
+   "link_to": "Designation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "Patient",
    "link_to": "Patient",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Mode Of Payment",
+   "link_to": "Mode of Payment",
    "stats_filter": "[]",
    "type": "DocType"
   },
