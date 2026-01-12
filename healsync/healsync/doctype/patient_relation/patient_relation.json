@@ -6,40 +6,47 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "patient",
-  "relation",
+  "relation_name",
+  "relation_type",
+  "relation_mobile",
   "description"
  ],
  "fields": [
-  {
-   "fieldname": "patient",
-   "fieldtype": "Link",
-   "ignore_user_permissions": 1,
-   "in_list_view": 1,
-   "label": "Patient",
-   "options": "Patient",
-   "reqd": 1
-  },
-  {
-   "fieldname": "relation",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Relation",
-   "options": "\nFather\nMother\nSpouse\nSiblings\nFamily\nOther",
-   "search_index": 1
-  },
   {
    "fieldname": "description",
    "fieldtype": "Small Text",
    "ignore_xss_filter": 1,
    "label": "Description"
+  },
+  {
+   "fieldname": "relation_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Relation Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "relation_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Relation Type",
+   "options": "\nFather\nMother\nSpouse\nSiblings\nFamily\nOther",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "relation_mobile",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Relation Mobile",
+   "options": "Phone"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-01-04 21:57:35.004308",
+ "modified": "2026-01-12 21:59:05.112199",
  "modified_by": "Administrator",
  "module": "HealSync",
  "name": "Patient Relation",

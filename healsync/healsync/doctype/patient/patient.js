@@ -2,16 +2,9 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on("Patient", {
-	refresh(frm) {
-        frappe.contacts.render_address_and_contact(frm);
-        frm.toggle_display(['address_html', 'contact_html'], !frm.is_new());
-
-		if (!frm.is_new()) {
-			frappe.contacts.render_address_and_contact(frm);
-		} else {
-			frappe.contacts.clear_address_and_contact(frm);
-		}
-	},
+	// refresh(frm) {
+        
+	// },
 
     onload: function (frm) {
 		if (frm.doc.dob) {

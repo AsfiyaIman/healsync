@@ -22,6 +22,7 @@
   "column_break_earz",
   "status",
   "uid",
+  "inpatient_status",
   "mobile",
   "phone",
   "email",
@@ -30,10 +31,14 @@
   "dashboard_tab",
   "address_and_contact_tab",
   "address_and_contact_section",
-  "address_html",
+  "address_line_1",
+  "address_line_2",
+  "city",
   "column_break_swss",
-  "contact_html",
-  "patient_relation_section",
+  "state",
+  "pincode",
+  "country",
+  "family_contacts_section",
   "patient_relation",
   "medical_history_tab",
   "personal_and_social_history_section",
@@ -221,16 +226,11 @@
   {
    "fieldname": "address_and_contact_section",
    "fieldtype": "Section Break",
-   "label": "Address and Contact"
+   "label": "Address Information"
   },
   {
    "fieldname": "column_break_swss",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "patient_relation_section",
-   "fieldtype": "Section Break",
-   "label": "Patient Relation"
   },
   {
    "fieldname": "patient_relation",
@@ -339,16 +339,48 @@
    "no_copy": 1
   },
   {
-   "fieldname": "address_html",
-   "fieldtype": "HTML",
-   "label": "Address HTML",
-   "read_only": 1
+   "fieldname": "address_line_1",
+   "fieldtype": "Data",
+   "label": "Address Line 1"
   },
   {
-   "fieldname": "contact_html",
-   "fieldtype": "HTML",
-   "label": "Contact HTML",
-   "read_only": 1
+   "fieldname": "address_line_2",
+   "fieldtype": "Data",
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "family_contacts_section",
+   "fieldtype": "Section Break",
+   "label": "Emergency & Family Contacts"
+  },
+  {
+   "fieldname": "inpatient_status",
+   "fieldtype": "Select",
+   "in_preview": 1,
+   "label": "Inpatient Status",
+   "no_copy": 1,
+   "options": "\nAdmission Scheduled\nAdmitted\nDischarge Scheduled"
   }
  ],
  "grid_page_length": 50,
@@ -356,7 +388,7 @@
  "image_field": "image",
  "links": [],
  "max_attachments": 50,
- "modified": "2026-01-04 23:04:18.539228",
+ "modified": "2026-01-13 00:15:45.792760",
  "modified_by": "Administrator",
  "module": "HealSync",
  "name": "Patient",

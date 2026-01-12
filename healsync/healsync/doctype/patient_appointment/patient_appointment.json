@@ -1,0 +1,286 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-01-12 23:09:04.447727",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "appointment_type",
+  "appointment_for",
+  "appointment_date",
+  "column_break_dfux",
+  "status",
+  "doctor",
+  "doctor_name",
+  "department",
+  "patient_details_section",
+  "patient",
+  "patient_name",
+  "column_break_hhcv",
+  "patient_sex",
+  "patient_age",
+  "appointment_details_section",
+  "duration",
+  "appointment_reason",
+  "booked_via",
+  "column_break_didz",
+  "appointment_datetime",
+  "visit_type",
+  "payments_section",
+  "mode_of_payment",
+  "invoiced",
+  "column_break_dayk",
+  "paid_amount",
+  "more_info_section",
+  "referring_doctor",
+  "column_break_zwox",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "HLC-APP-.YYYY.-",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "column_break_dfux",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "appointment_type",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Appointment Type",
+   "options": "Appointment Type",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "appointment_for",
+   "fieldtype": "Select",
+   "label": "Appointment For",
+   "options": "\nDoctor\nDepartment\nService Unit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nScheduled\nOpen\nConfirmed\nChecked In\nChecked Out\nClosed\nCancelled\nNo Show",
+   "search_index": 1
+  },
+  {
+   "depends_on": "eval:doc.appointment_for==\"Doctor\"",
+   "fieldname": "doctor",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Doctor",
+   "options": "Doctor",
+   "search_index": 1
+  },
+  {
+   "depends_on": "eval:doc.appointment_for==\"Doctor\"",
+   "fetch_from": "doctor.doctor_name",
+   "fieldname": "doctor_name",
+   "fieldtype": "Data",
+   "label": "Doctor Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "doctor.department",
+   "fetch_if_empty": 1,
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Department",
+   "mandatory_depends_on": "eval:doc.appointment_for==\"Department\"",
+   "options": "Medical Department",
+   "read_only_depends_on": "eval:doc.appointment_for!=\"Department\"",
+   "search_index": 1
+  },
+  {
+   "fieldname": "appointment_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "patient_details_section",
+   "fieldtype": "Section Break",
+   "label": "Patient Details"
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Patient",
+   "options": "Patient",
+   "reqd": 1,
+   "search_index": 1,
+   "set_only_once": 1
+  },
+  {
+   "fetch_from": "patient.patient_name",
+   "fieldname": "patient_name",
+   "fieldtype": "Data",
+   "label": "Patient Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_hhcv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "patient.sex",
+   "fieldname": "patient_sex",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "no_copy": 1,
+   "options": "Gender",
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
+  },
+  {
+   "fieldname": "patient_age",
+   "fieldtype": "Data",
+   "label": "Patient Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "appointment_details_section",
+   "fieldtype": "Section Break",
+   "label": "Appointment Details"
+  },
+  {
+   "fetch_from": "appointment_type.default_duration",
+   "fieldname": "duration",
+   "fieldtype": "Int",
+   "in_filter": 1,
+   "label": "Duration (In Minutes)",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "column_break_didz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "appointment_datetime",
+   "fieldtype": "Datetime",
+   "label": "Appointment Datetime",
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "appointment_reason",
+   "fieldtype": "Data",
+   "label": "Reason for Visit"
+  },
+  {
+   "fieldname": "visit_type",
+   "fieldtype": "Select",
+   "label": "Visit Type",
+   "options": "New Visit\nFollow-up\nEmergency"
+  },
+  {
+   "fieldname": "booked_via",
+   "fieldtype": "Select",
+   "label": "Booked Via",
+   "options": "Reception\nOnline\nPhone\nReferral"
+  },
+  {
+   "fieldname": "payments_section",
+   "fieldtype": "Section Break",
+   "label": "Payments"
+  },
+  {
+   "fieldname": "mode_of_payment",
+   "fieldtype": "Link",
+   "label": "Mode of Payment",
+   "options": "Mode of Payment"
+  },
+  {
+   "fieldname": "column_break_dayk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "paid_amount",
+   "fieldtype": "Currency",
+   "label": "Paid Amount"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "more_info_section",
+   "fieldtype": "Section Break",
+   "label": "More Info"
+  },
+  {
+   "fieldname": "referring_doctor",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Referring Doctor",
+   "options": "Doctor"
+  },
+  {
+   "fieldname": "column_break_zwox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Notes"
+  },
+  {
+   "default": "0",
+   "fieldname": "invoiced",
+   "fieldtype": "Check",
+   "label": "Invoiced"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-12 23:53:50.275456",
+ "modified_by": "Administrator",
+ "module": "HealSync",
+ "name": "Patient Appointment",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

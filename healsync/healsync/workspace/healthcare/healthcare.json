@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"id\":\"zxmCt-_FPO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Patients\",\"col\":4}},{\"id\":\"tKJf6TWkys\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Records\",\"col\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Patient Appointments",
+   "label": "Patient Appointments"
+  }
+ ],
+ "content": "[{\"id\":\"zxmCt-_FPO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Patients\",\"col\":3}},{\"id\":\"wPst-zNPsC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Patients Admitted\",\"col\":3}},{\"id\":\"lef-qAiQN8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Appointments\",\"col\":3}},{\"id\":\"j5_rZO60YZ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Appointments To Bill\",\"col\":3}},{\"id\":\"c4YACeWw-T\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Patient Appointments\",\"col\":12}},{\"id\":\"0qnjzLp2ei\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AzYbemsDQW\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Your Shortcuts</span>\",\"col\":12}},{\"id\":\"8KNqdy5x0C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Patient Appointment\",\"col\":4}},{\"id\":\"8Lejlp66m5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Patient\",\"col\":4}},{\"id\":\"MqBeesl6kd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Doctor\",\"col\":4}},{\"id\":\"YLokDRJk8a\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"KVQcfCF0kg\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"q907kR8PeQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"Wa3QggqY8S\",\"type\":\"card\",\"data\":{\"card_name\":\"Consultation\",\"col\":4}}]",
  "creation": "2026-01-04 23:06:18.489709",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,8 +21,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Master Records",
-   "link_count": 2,
+   "label": "Masters",
+   "link_count": 4,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -35,22 +40,73 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Doctor",
+   "link_count": 0,
+   "link_to": "Doctor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Doctor Schedule",
+   "link_count": 0,
+   "link_to": "Doctor Schedule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Medical Department",
    "link_count": 0,
    "link_to": "Medical Department",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consultation",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Patient Appointment",
+   "link_count": 0,
+   "link_to": "Patient Appointment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2026-01-10 01:42:33.597962",
+ "modified": "2026-01-13 00:17:23.101935",
  "modified_by": "Administrator",
  "module": "HealSync",
  "name": "Healthcare",
  "number_cards": [
   {
+   "label": "Total Patients Admitted",
+   "number_card_name": "Total Patients Admitted"
+  },
+  {
+   "label": "Open Appointments",
+   "number_card_name": "Open Appointments"
+  },
+  {
    "label": "Total Patients",
    "number_card_name": "Total Patients"
+  },
+  {
+   "label": "Appointments To Bill",
+   "number_card_name": "Appointments To Bill"
   }
  ],
  "owner": "Administrator",
@@ -59,6 +115,31 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 1.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Patient Appointment",
+   "link_to": "Patient Appointment",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Patient",
+   "link_to": "Patient",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Doctor",
+   "link_to": "Doctor",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Healthcare"
 }

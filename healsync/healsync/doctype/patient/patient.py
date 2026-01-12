@@ -3,14 +3,8 @@
 
 import frappe
 from frappe.model.document import Document
-from frappe.contacts.address_and_contact import load_address_and_contact
-
 
 class Patient(Document):
-	def onload(self):
-		"""Load address and contacts in `__onload`"""
-		load_address_and_contact(self)
-		
 	def validate(self):
 		self.set_full_name()
 

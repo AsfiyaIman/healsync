@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:schedule_name",
+ "creation": "2026-01-12 22:54:45.329192",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "disabled",
+  "column_break_iqgd",
+  "allow_video_conferencing",
+  "schedule_details_section",
+  "schedule_name",
+  "time_slots"
+ ],
+ "fields": [
+  {
+   "fieldname": "schedule_details_section",
+   "fieldtype": "Section Break",
+   "label": "Schedule Details"
+  },
+  {
+   "fieldname": "schedule_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Schedule Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "time_slots",
+   "fieldtype": "Table",
+   "label": "Time Slots",
+   "options": "Healthcare Schedule Time Slot"
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "label": "Disabled",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "column_break_iqgd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_video_conferencing",
+   "fieldtype": "Check",
+   "label": "Allow Video Conferencing"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-12 23:02:30.815692",
+ "modified_by": "Administrator",
+ "module": "HealSync",
+ "name": "Doctor Schedule",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
