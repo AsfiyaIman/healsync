@@ -9,6 +9,7 @@ class Patient(Document):
 		self.set_full_name()
 
 	def set_full_name(self):
-		self.patient_name = " ".join(
-			[name for name in [self.first_name, self.middle_name, self.last_name] if name]
-		)
+		first = self.first_name or ""
+		middle = self.middle_name or ""
+		last = self.last_name or ""
+		self.patient_name = first + " " + middle + " " + last
