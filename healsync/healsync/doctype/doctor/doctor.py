@@ -6,4 +6,10 @@ from frappe.model.document import Document
 
 
 class Doctor(Document):
-	pass
+	def validate(self):
+		self.set_full_name()
+
+	def set_full_name(self):
+		self.doctor_name = " ".join(
+			[name for name in [self.first_name, self.middle_name, self.last_name] if name]
+		)
