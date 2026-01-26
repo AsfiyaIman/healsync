@@ -1,0 +1,24 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Patient Bill",
+  "enabled": 1,
+  "modified": "2026-01-26 22:35:19.615977",
+  "module": "HealSync",
+  "name": "Filter Patient Appointment",
+  "script": "frappe.ui.form.on('Patient Bill', {\n\tonload(frm) {\n\t\tset_appointment_query(frm);\n\t},\n\n\tpatient(frm) {\n\t\tfrm.set_value(\"patient_appointment\", null);\n\t\tset_appointment_query(frm);\n\t}\n})\n\nfunction set_appointment_query(frm) {\n\tfrm.set_query(\"patient_appointment\", function () {\n\t\tif (!frm.doc.patient) {\n\t\t\treturn {};\n\t\t}\n\n\t\treturn {\n\t\t\tfilters: {\n\t\t\t\tpatient: frm.doc.patient,\n\t\t\t\tinvoiced: 0\n\t\t\t}\n\t\t};\n\t});\n}",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Vital Signs",
+  "enabled": 1,
+  "modified": "2026-01-26 22:56:42.085670",
+  "module": "HealSync",
+  "name": "Filter Patient Approintment in Vital Signs",
+  "script": "frappe.ui.form.on('Vital Signs', {\n\tonload(frm) {\n\t\tset_appointment_query(frm);\n\t},\n\n\tpatient(frm) {\n\t\tfrm.set_value(\"patient_appointment\", null);\n\t\tset_appointment_query(frm);\n\t}\n})\n\nfunction set_appointment_query(frm) {\n\tfrm.set_query(\"patient_appointment\", function () {\n\t\tif (!frm.doc.patient) {\n\t\t\treturn {};\n\t\t}\n\n\t\treturn {\n\t\t\tfilters: {\n\t\t\t\tpatient: frm.doc.patient\n\t\t\t}\n\t\t};\n\t});\n}",
+  "view": "Form"
+ }
+]

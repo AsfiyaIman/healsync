@@ -1,0 +1,83 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Credit Card",
+  "modified": "2026-01-14 00:00:30.519901",
+  "name": "Credit Card",
+  "type": "Bank"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Debit Card",
+  "modified": "2026-01-14 00:00:46.453856",
+  "name": "Debit Card",
+  "type": "Bank"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 0,
+  "mode_of_payment": "Cheque",
+  "modified": "2026-01-26 23:30:21.274467",
+  "name": "Cheque",
+  "type": "Bank"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Wire Transfer",
+  "modified": "2026-01-26 23:28:18.643802",
+  "name": "Wire Transfer",
+  "type": "Bank"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Bank Draft",
+  "modified": "2026-01-26 23:28:35.411639",
+  "name": "Bank Draft",
+  "type": "Bank"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "UPI",
+  "modified": "2026-01-26 23:29:05.388936",
+  "name": "UPI",
+  "type": "Phone"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Google Pay",
+  "modified": "2026-01-26 23:29:29.811990",
+  "name": "Google Pay",
+  "type": "Phone"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "PhonePe",
+  "modified": "2026-01-26 23:29:43.432187",
+  "name": "PhonePe",
+  "type": "Phone"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Mode of Payment",
+  "enabled": 1,
+  "mode_of_payment": "Cash",
+  "modified": "2026-01-14 00:00:15.442554",
+  "name": "Cash",
+  "type": "Cash"
+ }
+]

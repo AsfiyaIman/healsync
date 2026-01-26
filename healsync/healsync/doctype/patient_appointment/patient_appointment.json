@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2026-01-12 23:09:04.447727",
@@ -26,7 +27,7 @@
   "appointment_reason",
   "booked_via",
   "column_break_didz",
-  "appointment_datetime",
+  "appointment_time",
   "visit_type",
   "payments_section",
   "mode_of_payment",
@@ -178,15 +179,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "appointment_datetime",
-   "fieldtype": "Datetime",
-   "label": "Appointment Datetime",
-   "print_hide": 1,
-   "read_only": 1,
-   "report_hide": 1,
-   "search_index": 1
-  },
-  {
    "fieldname": "appointment_reason",
    "fieldtype": "Data",
    "label": "Reason for Visit"
@@ -251,12 +243,21 @@
    "fieldname": "invoiced",
    "fieldtype": "Check",
    "label": "Invoiced"
+  },
+  {
+   "fieldname": "appointment_time",
+   "fieldtype": "Datetime",
+   "label": "Appointment Datetime",
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-12 23:53:50.275456",
+ "modified": "2026-01-26 23:21:38.071326",
  "modified_by": "Administrator",
  "module": "HealSync",
  "name": "Patient Appointment",
@@ -278,6 +279,7 @@
  ],
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
+ "search_fields": "patient, doctor, department, appointment_date, appointment_time",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

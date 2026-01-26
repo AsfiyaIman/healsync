@@ -1,0 +1,65 @@
+[
+ {
+  "appointment_type": "Specialist Consultation",
+  "color": "#761ACB",
+  "default_duration": 30,
+  "docstatus": 0,
+  "doctype": "Appointment Type",
+  "modified": "2026-01-14 00:02:32.110552",
+  "name": "Specialist Consultation"
+ },
+ {
+  "appointment_type": "Follow-up Visit",
+  "color": "#449CF0",
+  "default_duration": 10,
+  "docstatus": 0,
+  "doctype": "Appointment Type",
+  "modified": "2026-01-26 23:41:36.040857",
+  "name": "Follow-up Visit"
+ },
+ {
+  "appointment_type": "Emergency Consultation",
+  "color": "#CB2929",
+  "default_duration": 45,
+  "docstatus": 0,
+  "doctype": "Appointment Type",
+  "modified": "2026-01-26 23:41:57.016052",
+  "name": "Emergency Consultation"
+ },
+ {
+  "appointment_type": "Health Check-up",
+  "color": "#4F9DD9",
+  "default_duration": 30,
+  "docstatus": 0,
+  "doctype": "Appointment Type",
+  "modified": "2026-01-26 23:42:21.154594",
+  "name": "Health Check-up"
+ },
+ {
+  "appointment_type": "Vital Signs Check",
+  "color": "#4463F0",
+  "default_duration": 10,
+  "docstatus": 0,
+  "doctype": "Appointment Type",
+  "modified": "2026-01-26 23:42:40.767912",
+  "name": "Vital Signs Check"
+ },
+ {
+  "appointment_type": "Dressing / Procedure",
+  "color": "#EC864B",
+  "default_duration": 20,
+  "docstatus": 0,
+  "doctype": "Appointment Type",
+  "modified": "2026-01-26 23:42:59.409309",
+  "name": "Dressing / Procedure"
+ },
+ {
+  "appointment_type": "General Consultation",
+  "color": "#29CD42",
+  "default_duration": 15,
+  "docstatus": 0,
+  "doctype": "Appointment Type",
+  "modified": "2026-01-14 00:01:55.490407",
+  "name": "General Consultation"
+ }
+]

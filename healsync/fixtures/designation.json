@@ -1,0 +1,82 @@
+[
+ {
+  "description": null,
+  "designation_name": "Doctor (MBBS)",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:37:12.692131",
+  "name": "Doctor (MBBS)"
+ },
+ {
+  "description": null,
+  "designation_name": "Pharmacist (Pharm.D)",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:37:45.463036",
+  "name": "Pharmacist (Pharm.D)"
+ },
+ {
+  "description": null,
+  "designation_name": "Staff Nurse",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:37:53.207097",
+  "name": "Staff Nurse"
+ },
+ {
+  "description": null,
+  "designation_name": "Nurse",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:38:00.292042",
+  "name": "Nurse"
+ },
+ {
+  "description": null,
+  "designation_name": "Medical Officer (MBBS)",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:38:15.242447",
+  "name": "Medical Officer (MBBS)"
+ },
+ {
+  "description": null,
+  "designation_name": "Consultant (MD)",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:38:23.267049",
+  "name": "Consultant (MD)"
+ },
+ {
+  "description": null,
+  "designation_name": "Lab Technician",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:38:31.141779",
+  "name": "Lab Technician"
+ },
+ {
+  "description": null,
+  "designation_name": "Receptionist",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:38:37.951614",
+  "name": "Receptionist"
+ },
+ {
+  "description": null,
+  "designation_name": "Billing Executive",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:38:44.338218",
+  "name": "Billing Executive"
+ },
+ {
+  "description": null,
+  "designation_name": "Cashier",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2026-01-26 23:38:50.024311",
+  "name": "Cashier"
+ }
+]
