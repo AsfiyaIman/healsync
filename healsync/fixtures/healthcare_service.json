@@ -1,0 +1,26 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Healthcare Service",
+  "modified": "2026-01-26 22:08:39.653832",
+  "name": "Follow-up",
+  "rate": 300.0,
+  "service_name": "Follow-up"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Healthcare Service",
+  "modified": "2026-01-26 22:08:57.051530",
+  "name": "Emergency Visit",
+  "rate": 1000.0,
+  "service_name": "Emergency Visit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Healthcare Service",
+  "modified": "2026-01-26 22:08:22.352114",
+  "name": "Consultation",
+  "rate": 500.0,
+  "service_name": "Consultation"
+ }
+]
