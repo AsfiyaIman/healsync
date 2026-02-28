@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2026-01-12 22:20:07.386323",
@@ -261,7 +262,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-12 23:03:59.254642",
+ "modified": "2026-02-28 08:41:31.330646",
  "modified_by": "Administrator",
  "module": "HealSync",
  "name": "Doctor",
