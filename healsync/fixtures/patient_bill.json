@@ -1,0 +1,272 @@
+[
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-20",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Male",
+  "items": [
+   {
+    "amount": 500.0,
+    "parent": "HLC-BILL-2026-00002",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 500.0,
+    "service": "Consultation"
+   }
+  ],
+  "mode_of_payment": "Cash",
+  "modified": "2026-03-26 00:24:06.664886",
+  "name": "HLC-BILL-2026-00002",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00004",
+  "patient_appointment": "HLC-APP-2026-00001",
+  "patient_name": "Arjun K Sharma",
+  "status": "Paid",
+  "total_amount": 500.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-21",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Female",
+  "items": [
+   {
+    "amount": 1000.0,
+    "parent": "HLC-BILL-2026-00003",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 1000.0,
+    "service": "Emergency Visit"
+   }
+  ],
+  "mode_of_payment": "UPI",
+  "modified": "2026-03-26 00:24:57.786718",
+  "name": "HLC-BILL-2026-00003",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00005",
+  "patient_appointment": "HLC-APP-2026-00002",
+  "patient_name": "Priya M Nair",
+  "status": "Paid",
+  "total_amount": 1000.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-25",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Male",
+  "items": [
+   {
+    "amount": 500.0,
+    "parent": "HLC-BILL-2026-00004",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 500.0,
+    "service": "Consultation"
+   }
+  ],
+  "mode_of_payment": "Credit Card",
+  "modified": "2026-03-26 00:25:40.360895",
+  "name": "HLC-BILL-2026-00004",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00006",
+  "patient_appointment": "HLC-APP-2026-00003",
+  "patient_name": "Rahul S Verma",
+  "status": "Unpaid",
+  "total_amount": 500.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-25",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Female",
+  "items": [
+   {
+    "amount": 1000.0,
+    "parent": "HLC-BILL-2026-00005",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 1000.0,
+    "service": "Emergency Visit"
+   }
+  ],
+  "mode_of_payment": "Cash",
+  "modified": "2026-03-26 00:27:05.709151",
+  "name": "HLC-BILL-2026-00005",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00007",
+  "patient_appointment": "HLC-APP-2026-00004",
+  "patient_name": "Sneha R Iyer",
+  "status": "Paid",
+  "total_amount": 1000.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-26",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Male",
+  "items": [
+   {
+    "amount": 300.0,
+    "parent": "HLC-BILL-2026-00006",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 300.0,
+    "service": "Follow-up"
+   }
+  ],
+  "mode_of_payment": "Google Pay",
+  "modified": "2026-03-26 00:27:57.806182",
+  "name": "HLC-BILL-2026-00006",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00008",
+  "patient_appointment": "HLC-APP-2026-00005",
+  "patient_name": "Imran A Khan",
+  "status": "Paid",
+  "total_amount": 300.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-26",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Female",
+  "items": [
+   {
+    "amount": 500.0,
+    "parent": "HLC-BILL-2026-00007",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 500.0,
+    "service": "Consultation"
+   }
+  ],
+  "mode_of_payment": "Debit Card",
+  "modified": "2026-03-26 00:29:31.651049",
+  "name": "HLC-BILL-2026-00007",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00009",
+  "patient_appointment": "HLC-APP-2026-00006",
+  "patient_name": "Meera L Rao",
+  "status": "Unpaid",
+  "total_amount": 500.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-27",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Male",
+  "items": [
+   {
+    "amount": 500.0,
+    "parent": "HLC-BILL-2026-00008",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 500.0,
+    "service": "Consultation"
+   }
+  ],
+  "mode_of_payment": "PhonePe",
+  "modified": "2026-03-26 00:30:48.941114",
+  "name": "HLC-BILL-2026-00008",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00010",
+  "patient_appointment": "HLC-APP-2026-00007",
+  "patient_name": "Karthik P Reddy",
+  "status": "Paid",
+  "total_amount": 500.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-22",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Female",
+  "items": [
+   {
+    "amount": 300.0,
+    "parent": "HLC-BILL-2026-00009",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 300.0,
+    "service": "Follow-up"
+   }
+  ],
+  "mode_of_payment": "Cash",
+  "modified": "2026-03-26 00:32:12.259080",
+  "name": "HLC-BILL-2026-00009",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00011",
+  "patient_appointment": "HLC-APP-2026-00008",
+  "patient_name": "Anjali T Patel",
+  "status": "Paid",
+  "total_amount": 300.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-23",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Male",
+  "items": [
+   {
+    "amount": 500.0,
+    "parent": "HLC-BILL-2026-00010",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 500.0,
+    "service": "Consultation"
+   }
+  ],
+  "mode_of_payment": "UPI",
+  "modified": "2026-03-26 00:32:52.790638",
+  "name": "HLC-BILL-2026-00010",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00012",
+  "patient_appointment": "HLC-APP-2026-00009",
+  "patient_name": "Vikram J Singh",
+  "status": "Unpaid",
+  "total_amount": 500.0
+ },
+ {
+  "amended_from": null,
+  "bill_date": "2026-03-24",
+  "docstatus": 1,
+  "doctype": "Patient Bill",
+  "gender": "Female",
+  "items": [
+   {
+    "amount": 1000.0,
+    "parent": "HLC-BILL-2026-00011",
+    "parentfield": "items",
+    "parenttype": "Patient Bill",
+    "qty": 1,
+    "rate": 1000.0,
+    "service": "Emergency Visit"
+   }
+  ],
+  "mode_of_payment": "Cash",
+  "modified": "2026-03-26 00:33:52.890992",
+  "name": "HLC-BILL-2026-00011",
+  "naming_series": "HLC-BILL-.YYYY.-",
+  "patient": "HLC-PAT-2026-00013",
+  "patient_appointment": "HLC-APP-2026-00010",
+  "patient_name": "Fatima Z Ali",
+  "status": "Paid",
+  "total_amount": 1000.0
+ }
+]

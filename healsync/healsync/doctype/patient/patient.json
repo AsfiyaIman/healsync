@@ -88,6 +88,7 @@
   },
   {
    "bold": 1,
+   "fetch_if_empty": 1,
    "fieldname": "patient_name",
    "fieldtype": "Data",
    "in_global_search": 1,
@@ -279,9 +280,9 @@
    "no_copy": 1
   },
   {
+   "bold": 1,
    "fieldname": "age_html",
    "fieldtype": "HTML",
-   "hidden": 1,
    "label": "Age",
    "no_copy": 1,
    "print_hide": 1,
@@ -389,7 +390,7 @@
  "image_field": "image",
  "links": [],
  "max_attachments": 50,
- "modified": "2026-01-13 23:21:33.153339",
+ "modified": "2026-03-26 00:44:28.897058",
  "modified_by": "Administrator",
  "module": "HealSync",
  "name": "Patient",
